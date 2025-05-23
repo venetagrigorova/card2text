@@ -2,6 +2,7 @@ import spacy
 import os
 import glob
 import json
+import re
 
 nlp = spacy.load("de_core_news_sm")
 print("Model loaded")
@@ -17,11 +18,13 @@ with open(os.path.join(base_dir, "rules.json"), "r", encoding="utf-8") as f:
 ruler = nlp.add_pipe("entity_ruler", before="ner", config={"overwrite_ents": True})
 patterns = []
 
-for month in rules["MONTHS"]:
-    patterns.append({"label": "Date", "pattern": [{"LOWER": month}, {"IS_DIGIT": True}]})
-
+# add static patterns
 patterns.extend(rules["PATTERNS"])
 ruler.add_patterns(patterns)
+
+# function to clean photographer names
+def clean_photographer(name):
+    return re.sub(r"^(aufn\.?|aufnahme)\s*", "", name, flags=re.IGNORECASE).strip(" ,.")
 
 combined_results = []
 
@@ -36,18 +39,16 @@ for txt_file in glob.glob(os.path.join(gt_dir, "*.txt")):
 
     for ent in doc.ents:
         ent_text = ent.text.strip().rstrip(".,;:")
-        if ent_text.lower() in rules["DROP_TERMS"]:
-            continue
         if ent.label_ in labeled:
             labeled[ent.label_].append(ent_text)
 
     result = {
         "Filename": filename,
-        "Location": labeled["Location"][0] if labeled["Location"] else "",
-        "Description": labeled["Description"][0] if labeled["Description"] else "",
-        "Date": labeled["Date"][0] if labeled["Date"] else "",
-        "Photographer": labeled["Photographer"][0] if labeled["Photographer"] else "",
-        "Film": labeled["Film"][0] if labeled["Film"] else ""
+        "Location": labeled["Location"][0].strip() if labeled["Location"] else "",
+        "Description": labeled["Description"][0].strip() if labeled["Description"] else "",
+        "Date": labeled["Date"][0].strip() if labeled["Date"] else "",
+        "Photographer": clean_photographer(labeled["Photographer"][0]).strip() if labeled["Photographer"] else "",
+        "Film": labeled["Film"][0].strip() if labeled["Film"] else ""
     }
 
     out_path = os.path.join(output_dir, filename.replace(".txt", ".json"))

@@ -1,94 +1,68 @@
 {
-  "DROP_TERMS": [],
-  "MONTHS": [
-    "jänner", "januar", "feber", "februar", "märz", "april", "mai",
-    "juni", "juli", "august", "september", "oktober", "november", "dezember",
-    "jan", "feb", "mär", "apr", "jun", "jul", "aug", "sep", "sept", "okt", "nov", "dez"
+  "KNOWN_LOCATIONS": [
+    "wien", "piesting", "donau", "rax", "horn", "gaming", "türnitz", "neusiedlersee", "scheibbs"
   ],
-  "KNOWN_LOCATIONS": ["piesting", "wien", "donau", "rax", "horn", "gaming", "türnitz"],
   "PATTERNS": [
+
     {
       "label": "Date",
       "pattern": [
-        { "LOWER": { "REGEX": "(jänner|januar|feber|februar|märz|april|mai|juni|juli|august|september|oktober|november|dezember|jan|feb|mär|apr|jun|jul|aug|sep|sept|okt|nov|dez)" } },
+        {
+          "LOWER": {
+            "REGEX": "(jänner|januar|feber|februar|märz|april|mai|juni|juli|august|september|oktober|november|dezember|jan|feb|mär|apr|jun|jul|aug|sep|sept|okt|nov|dez)"
+          }
+        },
         { "IS_DIGIT": true }
       ]
     },
+
     {
       "label": "Date",
       "pattern": [
         { "IS_DIGIT": true, "LENGTH": 4 }
       ]
     },
+
     {
       "label": "Film",
       "pattern": [
-        { "LOWER": { "REGEX": "rollfilm|film|leicafilm|leica-film" } },
-        { "LOWER": { "REGEX": "\\d+x\\d+" }, "OP": "?" },
-        { "IS_PUNCT": true, "OP": "*" },
-        { "LOWER": { "REGEX": "nr\\.*" }, "OP": "?" },
-        { "IS_DIGIT": true, "OP": "*" },
-        { "IS_PUNCT": true, "OP": "*" },
-        { "LOWER": { "REGEX": "neg\\.*" }, "OP": "?" },
-        { "IS_DIGIT": true, "OP": "*" }
+        { "LOWER": { "REGEX": "rollfilm|film|leicafilm|leica-film|leica" } },
+        { "OP": "+", "IS_SPACE": false }
       ]
     },
+
     {
       "label": "Photographer",
       "pattern": [
-        { "LOWER": { "REGEX": "aufn\\.*" } },
-        { "IS_TITLE": true },
-        { "IS_TITLE": true }
-      ]
-    },
-    {
-      "label": "Photographer",
-      "pattern": [
-        { "LOWER": { "REGEX": "aufn\\.*" } },
-        { "IS_ALPHA": true, "OP": "+" }
-      ]
-    },
-    {
-      "label": "Photographer",
-      "pattern": [
-        { "LOWER": "dr" },
-        { "IS_TITLE": true }
-      ]
-    },
-    {
-      "label": "Photographer",
-      "pattern": [
+        { "LOWER": { "REGEX": "aufn\\.*|aufnahme" } },
+        { "IS_ALPHA": true, "OP": "?" },
+        { "IS_PUNCT": true, "OP": "?" },
         { "IS_TITLE": true },
         { "IS_TITLE": true, "OP": "?" }
       ]
     },
-    {
-      "label": "Location",
-      "pattern": [
-        { "LOWER": { "REGEX": ".+(dorf|stein|platz|allee|straße|berg|gasse|mauer)$" } }
-      ]
-    },
+
     {
       "label": "Location",
       "pattern": [
         { "IS_TITLE": true },
-        { "IS_TITLE": true, "OP": "?" },
-        { "IS_TITLE": true, "OP": "?" }
+        { "IS_TITLE": true }
       ]
     },
+
+    {
+      "label": "Location",
+      "pattern": [
+        { "LOWER": { "REGEX": ".+(dorf|gasse|au|berg|bach|platz|klamm|straße|see)$" } }
+      ]
+    },
+
     {
       "label": "Location",
       "pattern": [
         { "LOWER": "klamm" },
         { "LOWER": "bei" },
         { "IS_TITLE": true }
-      ]
-    },
-    {
-      "label": "Description",
-      "pattern": [
-        { "IS_ALPHA": true },
-        { "IS_ALPHA": true, "OP": "+" }
       ]
     }
   ]
