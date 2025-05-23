@@ -30,7 +30,7 @@ combined_results = []
 
 for txt_file in glob.glob(os.path.join(gt_dir, "*.txt")):
     with open(txt_file, "r", encoding="utf-8") as f:
-        text = f.read()
+        text = f.read().strip()
 
     filename = os.path.basename(txt_file)
     doc = nlp(text)
@@ -44,6 +44,7 @@ for txt_file in glob.glob(os.path.join(gt_dir, "*.txt")):
 
     result = {
         "Filename": filename,
+        "Text": text,
         "Location": labeled["Location"][0].strip() if labeled["Location"] else "",
         "Description": labeled["Description"][0].strip() if labeled["Description"] else "",
         "Date": labeled["Date"][0].strip() if labeled["Date"] else "",
