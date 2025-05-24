@@ -1,7 +1,9 @@
 {
   "KNOWN_LOCATIONS": [
-    "wien", "piesting", "donau", "rax", "horn", "gaming", "türnitz", "neusiedlersee", "scheibbs"
+    "wien", "piesting", "donau", "rax", "horn", "gaming",
+    "türnitz", "neusiedlersee", "scheibbs"
   ],
+
   "PATTERNS": [
 
     {
@@ -12,6 +14,7 @@
             "REGEX": "(jänner|januar|feber|februar|märz|april|mai|juni|juli|august|september|oktober|november|dezember|jan|feb|mär|apr|jun|jul|aug|sep|sept|okt|nov|dez)"
           }
         },
+        { "IS_PUNCT": true, "OP": "?" },
         { "IS_DIGIT": true }
       ]
     },
@@ -19,41 +22,57 @@
     {
       "label": "Date",
       "pattern": [
-        { "IS_DIGIT": true, "LENGTH": 4 }
+        {
+          "TEXT": {
+            "REGEX": "^19[0-9]{2}$"
+          }
+        }
       ]
     },
 
     {
       "label": "Film",
       "pattern": [
-        { "LOWER": { "REGEX": "rollfilm|film|leicafilm|leica-film|leica" } },
-        { "OP": "+", "IS_SPACE": false }
+        { "LOWER": { "REGEX": "(film|rollfilm|leicafilm|leica-film|leica)" } },
+        { "OP": "*", "IS_SPACE": false }
       ]
     },
 
+    
     {
       "label": "Photographer",
       "pattern": [
-        { "LOWER": { "REGEX": "aufn\\.*|aufnahme" } },
-        { "IS_ALPHA": true, "OP": "?" },
-        { "IS_PUNCT": true, "OP": "?" },
+        { "TEXT": { "REGEX": "(?i)aufn[.,]?" } },
+        { "TEXT": { "REGEX": "(Dr|Prof)?[.,]?" }, "OP": "?" },
         { "IS_TITLE": true },
         { "IS_TITLE": true, "OP": "?" }
       ]
     },
 
     {
-      "label": "Location",
+      "label": "Photographer",
       "pattern": [
-        { "IS_TITLE": true },
-        { "IS_TITLE": true }
+        { "TEXT": { "REGEX": "(?i)^aufn.*[A-ZÄÖÜ][a-zäöü]+" } }
       ]
     },
 
     {
       "label": "Location",
       "pattern": [
-        { "LOWER": { "REGEX": ".+(dorf|gasse|au|berg|bach|platz|klamm|straße|see)$" } }
+        { "IS_TITLE": true, "OP": "+" },
+        { "IS_PUNCT": true, "OP": "*" },
+        { "IS_TITLE": true, "OP": "*" }
+      ]
+    },
+
+    {
+      "label": "Location",
+      "pattern": [
+        {
+          "LOWER": {
+            "REGEX": ".+(dorf|gasse|au|berg|bach|platz|klamm|straße|see|alm|kloster)$"
+          }
+        }
       ]
     },
 
@@ -63,6 +82,14 @@
         { "LOWER": "klamm" },
         { "LOWER": "bei" },
         { "IS_TITLE": true }
+      ]
+    },
+
+    {
+      "label": "Description",
+      "pattern": [
+        { "IS_ALPHA": true },
+        { "IS_ALPHA": true, "OP": "+" }
       ]
     }
   ]
