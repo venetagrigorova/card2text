@@ -17,4 +17,3 @@ This Task evaluates OCR performance using [Tesseract OCR](https://github.com/tes
 Tesseract must be installed in the following location C:\Program Files\Tesseract-OCR\tesseract.exe
 
 Dependencies for this task are also in the 'env.yml'.
----
