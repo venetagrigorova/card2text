@@ -7,7 +7,7 @@ Use the provided 'env.yml' file to set up the environment:
 
 ```bash
 conda env create -f env.yml
-
+```
 If you use MAC OS you need to use mac-env.yml for Task A.
 
 
