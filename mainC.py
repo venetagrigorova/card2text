@@ -99,7 +99,7 @@ for txt_file in glob.glob(os.path.join(input_dir, "*crop_otsu_bin_psm6.txt")):
     print(f"Processed: {filename}")
 
 # write combined JSON with all results
-combined_path = os.path.join(base_dir, "entities-combined.json")
+combined_path = os.path.join(base_dir, "task-c-spacy.json")
 with open(combined_path, "w", encoding="utf-8") as out_f:
     json.dump(combined_results, out_f, indent=2, ensure_ascii=False)
 

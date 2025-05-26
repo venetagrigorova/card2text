@@ -1,0 +1,44 @@
+[
+    {
+        "Location": "Deutsch-Altenburg",
+        "Description": "Steinbruch",
+        "Date": "1948",
+        "Photographer": "Dr.Machura",
+        "Film": "Film Nr.24"
+    },
+    {
+        "Location": "Gunserndorf im Marchfeld",
+        "Description": "Schottergrube",
+        "Date": "1948",
+        "Photographer": "Dr.Machura",
+        "Film": "Film Nr.15"
+    },
+    {
+        "Location": "Tiirnits",
+        "Description": "4 Linden, Haturdeaxmal",
+        "Date": "1954",
+        "Photographer": "tleisiuger",
+        "Film": "Leicafilm Nr.61"
+    },
+    {
+        "Location": "Eckartsau",
+        "Description": "Weide am narrischen Arm",
+        "Date": "1949",
+        "Photographer": "Dr.Machura",
+        "Film": "ilm Nr. 12"
+    },
+    {
+        "Location": "Marchauen bei Marchegg",
+        "Description": "Hochwasser, Blick v.Schlo8B",
+        "Date": null,
+        "Photographer": null,
+        "Film": null
+    },
+    {
+        "Location": "Mie senbach~Scheuchenstein",
+        "Description": "Gauermanmnhof m.gesch. Baumen",
+        "Date": "Juni 1959",
+        "Photographer": "Meisnger",
+        "Film": "Rollfilm 4x6"
+    }
+]
