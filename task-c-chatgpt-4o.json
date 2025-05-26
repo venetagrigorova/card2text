@@ -1,5 +1,7 @@
 [
     {
+        "Filename": "0035_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Steinbruch in\n\nDeutsch-Altenburg\nAufn. Dr.Machura 1948\n-Film Nr.24,Neg.1 u.3",
         "Location": "Deutsch-Altenburg",
         "Description": "Steinbruch",
         "Date": "1948",
@@ -7,27 +9,44 @@
         "Film": "Film Nr.24"
     },
     {
-        "Location": "Gunserndorf im Marchfeld",
-        "Description": "Schottergrube",
+        "Filename": "0041_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Gaming\n\n3 Einden bei d.Yemeinde\nBuchenallee beim \u201closter\nAufn. Meisinger 1953\nFilm Ny.535,Neg.Nr.17,18.",
+        "Location": "Gaming",
+        "Description": "3 Einden bei d.Yemeinde",
+        "Date": "1953",
+        "Photographer": "Meisinger",
+        "Film": "Film Ny.535"
+    },
+    {
+        "Filename": "0061_ImageFile_text_merged_crop_otsu_bin_psm6.txt",
+        "Text": "Kl.Pertholz ,Waldviertel\nLandschaftsmotive\nAufn. Dr.Machura, 1952\nFilm 6x6,Nr.28/5,,8% 4/\nGrahitbiock u.Anfelbaum",
+        "Location": "Kl.Pertholz ,Waldviertel",
+        "Description": "Landschaftsmotive",
+        "Date": "1952",
+        "Photographer": "Dr.Machura",
+        "Film": "Film 6x6"
+    },
+    {
+        "Filename": "0040_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Buchbach-Nolzweg,Edelkastanie\nAufn. Meisinger 1954\nLeicafilm Nr.60,Neg.ur.g,7.",
+        "Location": "Buchbach-Nolzweg,Edelkastanie",
+        "Description": null,
+        "Date": "1954",
+        "Photographer": "Meisinger",
+        "Film": "Leicafilm Nr.60"
+    },
+    {
+        "Filename": "0001_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Neunkirchner Allee\nAufn Dr.Machura 1948\nFilm Nr.1i7,Neg.17",
+        "Location": "Neunkirchner Allee",
+        "Description": null,
         "Date": "1948",
         "Photographer": "Dr.Machura",
-        "Film": "Film Nr.15"
+        "Film": "Film Nr.1i7"
     },
     {
-        "Location": "Tiirnits",
-        "Description": "4 Linden, Haturdeaxmal",
-        "Date": "1954",
-        "Photographer": "tleisiuger",
-        "Film": "Leicafilm Nr.61"
-    },
-    {
-        "Location": "Eckartsau",
-        "Description": "Weide am narrischen Arm",
-        "Date": "1949",
-        "Photographer": "Dr.Machura",
-        "Film": "ilm Nr. 12"
-    },
-    {
+        "Filename": "0034_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Marchauen bei Marchegg\n\n/ be Malkira.\nHochwasser, Blick v.Schlo8B\n(Neg.1090,1091 - 9x12)",
         "Location": "Marchauen bei Marchegg",
         "Description": "Hochwasser, Blick v.Schlo8B",
         "Date": null,
@@ -35,10 +54,516 @@
         "Film": null
     },
     {
+        "Filename": "0042_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Lang Enzersdorf\nBaumstiimmelung durch Leitung\nAufn. Meisinger,0kt.1959\nRollfilm 4x6,Nr.80/1 u.2._",
+        "Location": "Lang Enzersdorf",
+        "Description": "Baumstiimmelung durch Leitung",
+        "Date": "1959",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0036_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Schottergrube bei\nGunserndorf im Marchfeld\nAufn. Dr.Machura 1948\nFilm Nr.15, Neg.21 u.22..",
+        "Location": "Gunserndorf im Marchfeld",
+        "Description": "Schottergrube",
+        "Date": "1948",
+        "Photographer": "Dr.Machura",
+        "Film": "Film Nr.15"
+    },
+    {
+        "Filename": "0003_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Wimbach-Isperklamn,\n\nAm 15.7.1957 noch immer Strassenzer-\nst\u00e9rung.\n\nAufn. Meisinger,\n\nRollfilm Nr.48/10+414,",
+        "Location": "Wimbach-Isperklamn,",
+        "Description": "Am 15.7.1957 noch immer Strassenzer-",
+        "Date": "1957",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm Nr.48/10+414"
+    },
+    {
+        "Filename": "0038_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Hagenbachklamm\nAufn. Meisinger,April 1962,\nRollfilm 4x6,Neg.101/7 + 6",
+        "Location": "Hagenbachklamm",
+        "Description": null,
+        "Date": "April 1962",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0002_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Klamm bei Schottwien\nAufn. Dr.Machura\nFilm 9xi2,Nr.2548",
+        "Location": "Klamm bei Schottwien",
+        "Description": null,
+        "Date": "2548",
+        "Photographer": "Dr.Machura",
+        "Film": "Film 9xi2"
+    },
+    {
+        "Filename": "0037_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "SchloB Weinzierl (Gresten)\nThuje u.gedeckter Gang\nAufn. Meisinger,M\u00e4rz 1960.\nRollfilm 4x6,Nr.84/7-8",
+        "Location": "SchloB Weinzierl (Gresten)",
+        "Description": "Thuje u.gedeckter Gang",
+        "Date": "M\u00e4rz 1960",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0039_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Hagenbachklamm unterhalb\nder regul.Strecke,\nAufn. Meisinger,April 1962\nRollfilm 4x6,Neg.101/8 + 9",
+        "Location": "Hagenbachklamm unterhalb",
+        "Description": "der regul.Strecke,",
+        "Date": "April 1962",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0043_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Weide am narrischen\nArm bei Eckartsau\nAufn. Dr.Machura 1949 ,\nilm Nr. 12, Neg.Nr.15,14",
+        "Location": "Eckartsau",
+        "Description": "Weide am narrischen Arm",
+        "Date": "1949",
+        "Photographer": "Dr.Machura",
+        "Film": "ilm Nr. 12"
+    },
+    {
+        "Filename": "0049_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Tiirnits, \u2018\n4 Linden, Haturdeaxmal\nAufn.tleisiuger 1954\nLeicafilm Nr.61,\"er. or. o 7. ;",
+        "Location": "Tiirnits",
+        "Description": "4 Linden, Haturdeaxmal",
+        "Date": "1954",
+        "Photographer": "tleisiuger",
+        "Film": "Leicafilm Nr.61"
+    },
+    {
+        "Filename": "0047_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Hilienfeld-Klosteralm\n\n1 Pichte,Naturdenkmal\nAufn. Meisinger,Mai 1957.\n\n1 Rollfilm 4x6,Neg.Nr.47/ 3+4.,",
+        "Location": "Hilienfeld-Klosteralm",
+        "Description": "1 Pichte,Naturdenkmal",
+        "Date": "Mai 1957",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0008_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Piesting,Haus Kupelwieser\nLinde u.Platane,Kastanienallee\nAufn. Meisinger,Feber 1960\nRollfilm 4x6,Nr.83/6+/7",
+        "Location": "Piesting,Haus Kupelwieser",
+        "Description": "Linde u.Platane,Kastanienallee",
+        "Date": "Feber 1960",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0006_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Stixensteinklamm\nAufn. Dr.L.Machura 1949\n\u201cFilm Nr.25,Neg.1 u.2_,",
+        "Location": "Stixensteinklamm",
+        "Description": null,
+        "Date": "1949",
+        "Photographer": "Dr.L.Machura",
+        "Film": "Film Nr.25"
+    },
+    {
+        "Filename": "0033_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Verdlung des Mihlbaches\nbei Dr\u00e9stng 1948\nAufn. Dr.Machura\n\nFilm Nr,15,Neg.30,341.-",
+        "Location": "Verdlung des Mihlbaches",
+        "Description": "bei Dr\u00e9stng 1948",
+        "Date": "1948",
+        "Photographer": "Dr.Machura",
+        "Film": "Film Nr"
+    },
+    {
+        "Filename": "0009_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Horn.\nGingkobaum -\nAufn Meisinger, J\u00e4nner: 1959\nRollfilm 4x6,Nr.64,4. ,",
+        "Location": "Horn.",
+        "Description": "Gingkobaum -",
+        "Date": "1959",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0032_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Grtinbach a.Schneeberg\n\n.6 Koglbauernf\u00e9hren\nAufn. Meisinger 1955.\nLeicafilm Nr.69,Neg.Nr.3 u.4.",
+        "Location": "Grtinbach a.Schneeberg",
+        "Description": ".6 Koglbauernf\u00e9hren",
+        "Date": "1955",
+        "Photographer": "Meisinger",
+        "Film": "Leicafilm Nr.69"
+    },
+    {
+        "Filename": "0007_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "St.Johann a.d.D.\nAufns.Dr.Machura\nLeica Film Nr.31/23",
+        "Location": "St.Johann a.d.D.",
+        "Description": null,
+        "Date": null,
+        "Photographer": "s.Dr.Machura",
+        "Film": "Film Nr.31/23"
+    },
+    {
+        "Filename": "0048_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Waldviertel\nHolzschligerung\nFilm 6x6,Nr.7,Neg.8",
+        "Location": "Waldviertel",
+        "Description": "Holzschligerung",
+        "Date": null,
+        "Photographer": null,
+        "Film": "Film 6x6"
+    },
+    {
+        "Filename": "0046_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Lilienfeld-Klosteralm\n\n2 Tannen\nAufn. Meisinger, Mai 1957.\nRollfilm 4x6,Neg.Nr.47 -1+2.",
+        "Location": "Lilienfeld-Klosteralm",
+        "Description": "2 Tannen",
+        "Date": "Mai 1957",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0005_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Lassee\nFlugerdeverwehungen\n\u2018ufn.Meisinger\n\nRollfilm 4x6,N.Sceh.K.258",
+        "Location": "Lassee",
+        "Description": "Flugerdeverwehungen",
+        "Date": null,
+        "Photographer": null,
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0030_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Gr.Riedenbhal\n\nmit \"Neun Mauna\" und\nMarterl.\n\nAufn. Meisinger 1956.\nRollfilm Nr.39,Neg.Nr.10/,9,",
+        "Location": "Gr.Riedenbhal",
+        "Description": "mit \"Neun Mauna\" und",
+        "Date": "1956",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm Nr.39"
+    },
+    {
+        "Filename": "0044_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Weiden am narrischen\nArm bei Eckartsau\n\nAufn. Dr.Machura 1949\nFilm Nr.12,Neg.15,18",
+        "Location": "Arm bei Eckartsau",
+        "Description": "Weiden am narrischen",
+        "Date": "1949",
+        "Photographer": "Dr.Machura",
+        "Film": "Film Nr.12"
+    },
+    {
+        "Filename": "0045_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Erlaufboden Stausee\nAufnahme Meisinger, Sept .1956\nRollfilm Nr.40/9,u.10. ,",
+        "Location": "Erlaufboden Stausee",
+        "Description": null,
+        "Date": "1956",
+        "Photographer": "ahme Meisinger",
+        "Film": "Rollfilm Nr.40/9"
+    },
+    {
+        "Filename": "0031_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Gr.Siegharts\n\n2x 1.Linde, Naturdenkmal .\nAufn. Meisinger,Dez.1958;\nRollfilm 4x6,Nr.63/14 u.15",
+        "Location": "Gr.Siegharts",
+        "Description": "2x 1.Linde, Naturdenkmal .",
+        "Date": "Dez 1958",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0004_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Wullersdorf,\n\nStieleichen, Naturdenkmal\n\nAufn. Meisinger,Feber 1959\nRollfilm 4x6,Nr.68/1 u.2.",
+        "Location": "Wullersdorf,",
+        "Description": "Stieleichen, Naturdenkmal",
+        "Date": "Feber 1959",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0013_ImageFile_text_merged_crop_otsu_bin_psm6.txt",
+        "Text": "Mie senbach~Scheuchenstein\nGauermanmnhof m.gesch. Baumen\nAufn. Meisnger,Juni 1959\nRollfilm 4x6,Neg.Nr.75/1,76/14\nBiche 76/14",
         "Location": "Mie senbach~Scheuchenstein",
         "Description": "Gauermanmnhof m.gesch. Baumen",
         "Date": "Juni 1959",
         "Photographer": "Meisnger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0053_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Klein Engersdorf,1 Linde\nNaturdenkmal\nAufn. Meisinger 1954,\nLeicafilm Nr.67,Neg.Nr.39.",
+        "Location": "Naturdenkmal",
+        "Description": "Klein Engersdorf,1 Linde",
+        "Date": "1954",
+        "Photographer": "Meisinger",
+        "Film": "Leicafilm Nr.67"
+    },
+    {
+        "Filename": "0029_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Hirschwaug,Gemeinde Wiex\nHolzsigewerk\n\nAufn Meisinger 1954.\nLeicafilm Nr.G0, Neg. Nr.19,20,,",
+        "Location": "Hirschwaug,Gemeinde Wiex",
+        "Description": "Holzsigewerk",
+        "Date": "1954",
+        "Photographer": "Meisinger",
+        "Film": "Leicafilm Nr.G0"
+    },
+    {
+        "Filename": "0027_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Lassee\nFlugerdeverwehungen\ntufn.Meisinger\n\nRollfilm 4x6,N.Sch.K.258",
+        "Location": "Lassee",
+        "Description": "Flugerdeverwehungen",
+        "Date": null,
+        "Photographer": null,
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0012_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Stollberg\nEibenwald,Naturdenkmal,\nAufn. Meisinger, Nov.1959,\nRolifilm 4x6,Nr.99/2 u.3,",
+        "Location": "Stollberg",
+        "Description": "Eibenwald,Naturdenkmal,",
+        "Date": "Nov 1959",
+        "Photographer": "Meisinger",
+        "Film": null
+    },
+    {
+        "Filename": "0028_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Windschutzpflanzung\nan d.Bundesstrasse bei\nPlankenberg\nAufn. Dr.Miachura 1949\nFilm Nr.23,Neg.10 /",
+        "Location": "Windschutzpflanzung",
+        "Description": "an d.Bundesstrasse bei",
+        "Date": "1949",
+        "Photographer": "Dr.Miachura",
+        "Film": "Film Nr.23"
+    },
+    {
+        "Filename": "0026_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Weikendorfer kemise,\nWacholderbestand.\nAufn. Meisinger.Okt.1957,\nRollfilm 4x6,Nr.51.Neg.445",
+        "Location": "Weikendorfer kemise,",
+        "Description": "Wacholderbestand.",
+        "Date": "Okt 1957",
+        "Photographer": "Meisinger.Okt.",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0052_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Raxblick v.Griinsting aus\nAufn Meisinger",
+        "Location": "Aufn Meisinger",
+        "Description": "Raxblick v.Griinsting aus",
+        "Date": null,
+        "Photographer": "Meisinger",
+        "Film": null
+    },
+    {
+        "Filename": "0024_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Weikendorfer Remise\nNaturschutzgebiet\nWacholderhaine\nAufn. A.Meisinger 19514\n\nFilm 6x9,Nr.15,Neg.Nr.15,16.",
+        "Location": "Weikendorfer Remise",
+        "Description": "Naturschutzgebiet",
+        "Date": "1951",
+        "Photographer": "A.Meisinger",
+        "Film": "Film 6x9"
+    },
+    {
+        "Filename": "0011_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Isper\n\n2 Linden, Naturdenkmal\nAufn. Meisinger,Feber 1960.\nRollfilm 4x6,Nr.82/6 ,+/7,",
+        "Location": "Isper",
+        "Description": "2 Linden, Naturdenkmal",
+        "Date": "Feber 1960",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0050_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Latschenwald 1948\nAufn. Dr.Machura\nFilm Nr. 4 Neg.Nr.28",
+        "Location": "Latschenwald 1948",
+        "Description": null,
+        "Date": "1948",
+        "Photographer": "Dr.Machura",
+        "Film": "Film Nr. 4 Neg.Nr.28"
+    },
+    {
+        "Filename": "0051_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "_, Rax,\nSitdddbdys u.Polleroswand\nv.semmering aus\nAufn. Dr.Machura 1949\n\nFilm Nr. XXVIII,Neg.25 u.26",
+        "Location": "_, Rax,",
+        "Description": "Sitdddbdys u.Polleroswand",
+        "Date": "1949",
+        "Photographer": "Dr.Machura",
+        "Film": "Film Nr. XXVIII"
+    },
+    {
+        "Filename": "0010_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Scheidds\n\n1 Eiche,Nat.Denkm.\nAufn. Meisinger,J\u00e4nner 1958\nLeicafilmNr.75, HWeg.3+4.,",
+        "Location": "Scheidds",
+        "Description": "1 Eiche,Nat.Denkm.",
+        "Date": "J\u00e4nner 1958",
+        "Photographer": "Meisinger",
+        "Film": "LeicafilmNr.75"
+    },
+    {
+        "Filename": "0025_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Weikendorfer Remise\nNaturschutzgebiet\nBirkenhaine\nAufn. A.Mebsinger 1951\nFilm 6x9,Nr.13,Neg.Nr.13,14.",
+        "Location": "Weikendorfer Remise",
+        "Description": "Naturschutzgebiet",
+        "Date": "1951",
+        "Photographer": "A.Mebsinger",
+        "Film": "Film 6x9"
+    },
+    {
+        "Filename": "0014_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Regelsbrunner Au\nAufn. Dr.Machura 1948\n-Film Nr.19,Neg.29 u.28_",
+        "Location": "Regelsbrunner Au",
+        "Description": null,
+        "Date": "1948",
+        "Photographer": "Dr.Machura",
+        "Film": "Film Nr.19"
+    },
+    {
+        "Filename": "0021_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Neustadtl\n\nPilzstein m.\"ensterl\nAufn. Meisinger,Nov,i1959\nRollfilm 4x6, Nr.81/13+15,",
+        "Location": "Neustadtl",
+        "Description": "Pilzstein m.\"ensterl",
+        "Date": "1959",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0060_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Tormiuer Anfang bei\nTriibenbach.\nAufn. Meisinger,Juli 1961\n\nRollfilm 4x6, Nr.96/14",
+        "Location": "Tormiuer Anfang bei",
+        "Description": "Triibenbach.",
+        "Date": "Juli 1961",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0055_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Traismauer\nTreisen nach NIOGAS-Rohrlegung\nAufn. Meisjuger, Sept .1958\nRollfilm 4x6,Nr.59/10/+ 11,",
+        "Location": "Traismauer",
+        "Description": "Treisen nach NIOGAS-Rohrlegung",
+        "Date": "1958",
+        "Photographer": "Meisjuger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0054_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Nousiedlersee\n\nIllmitz,Bild aus der Steppe\nAufn .Meisinger 1949\nFilm Nr. 6 Neg.Nr. 18",
+        "Location": "Nousiedlersee",
+        "Description": "Illmitz,Bild aus der Steppe",
+        "Date": "1949",
+        "Photographer": ".Meisinger",
+        "Film": "Film Nr. 6 Neg.Nr. 18"
+    },
+    {
+        "Filename": "0020_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Neustadtl,\nTeufelsbettstein, Naturd.\nAufn. Meisinger, Nov.1959\nRollfilm 4x6,81/11+412.",
+        "Location": "Neustadtl,",
+        "Description": "Teufelsbettstein, Naturd.",
+        "Date": "Nov 1959",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0015_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Regelsbrunner Au\nAufn. Dr. Machura 1948\nFilm Nr.19,Neg.Nr.21,u.22",
+        "Location": "Regelsbrunner Au",
+        "Description": null,
+        "Date": "1948",
+        "Photographer": "Dr. Machura",
+        "Film": "Film Nr.19"
+    },
+    {
+        "Filename": "0063_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Dausrci.n.: 3\nTheresienhttte.\n\naufn. weisinger worii i.4gt\naoe. al levca-Fil.. a /o4",
+        "Location": "Dausrci.n.: 3",
+        "Description": "Theresienhttte.",
+        "Date": null,
+        "Photographer": null,
+        "Film": null
+    },
+    {
+        "Filename": "0056_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Neusiedlersee .\nSeeaustritt an der Seestrasse\nAufn Dr .Machura /1952,\n\nFilm 6x6 Nr.29 IS",
+        "Location": "Neusiedlersee .",
+        "Description": "Seeaustritt an der Seestrasse",
+        "Date": "1952",
+        "Photographer": "Dr .Machura /",
+        "Film": "Film 6x6 Nr.29 IS"
+    },
+    {
+        "Filename": "0058_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Lackenhof\n\nLinde, Naturdenkmal.\nAufn. Meisinger,Sept.1961\nRollfilm 4x6,Nr.98/1 + 2",
+        "Location": "Lackenhof",
+        "Description": "Linde, Naturdenkmal.",
+        "Date": "Sept 1961",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0017_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Schneeberg v.Kreuzberg aus\nAufn. Meisinger,Feber 1960\nRollfilm 4x6,Nr.82/13.,",
+        "Location": "Schneeberg v.Kreuzberg aus",
+        "Description": null,
+        "Date": "Feber 1960",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0022_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "GaiB berg .\nVerunstaltete Landschaft\nAufn. Meisinger 1953\nL.Pilsa hr.o4, Neg. Nr.18,19.",
+        "Location": "GaiB berg .",
+        "Description": "Verunstaltete Landschaft",
+        "Date": "1953",
+        "Photographer": "Meisinger",
+        "Film": null
+    },
+    {
+        "Filename": "0019_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Schinau a.d.Triesting\nGuter Briickenbau\nAufn. Meisinger.Dez.1955\nBEL CAL MELT\n\nRollfilm 4x6,Neg.Nr.54 /",
+        "Location": "Schinau a.d.Triesting",
+        "Description": "Guter Briickenbau",
+        "Date": "Dez 1955",
+        "Photographer": "Meisinger.Dez.",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0023_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Sachsexbrunz , Kirchberg a.iochsel\nFichte und Linden, Naturdenknale\nAufn. Meisinger, Sept.2Z958. 419\nRollfilm 4x6,Nr.61/12,13.",
+        "Location": "Sachsexbrunz , Kirchberg a.iochsel",
+        "Description": "Fichte und Linden, Naturdenknale",
+        "Date": null,
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm 4x6"
+    },
+    {
+        "Filename": "0016_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Regelsbruuz 1948\nBlick auf die Donau\ngegen Osten\n\nAufn , Dr.Machura\nLeica Film Nr.36/30,",
+        "Location": "Regelsbruuz 1948",
+        "Description": "Blick auf die Donau",
+        "Date": "1948",
+        "Photographer": null,
+        "Film": "Film Nr.36/30"
+    },
+    {
+        "Filename": "0018_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Breitenstein geg.\nSchneeberg u.Rax\nAufn. Meisinger,Mai 1961\nRollfilm Nr.94/546 ,",
+        "Location": "Breitenstein geg.",
+        "Description": "Schneeberg u.Rax",
+        "Date": "Mai 1961",
+        "Photographer": "Meisinger",
+        "Film": "Rollfilm Nr.94/546"
+    },
+    {
+        "Filename": "0057_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "Asuaberg mit Ots-cher\npe .\nAufnvieisinxger 1954,\nLeicafilm \u201cy.61,Neg.Nr.9,10.",
+        "Location": "Asuaberg mit Ots-cher",
+        "Description": "pe .",
+        "Date": "1954",
+        "Photographer": "vieisinxger",
+        "Film": "Leicafilm \u201cy.61"
+    },
+    {
+        "Filename": "0062_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "WURPFLAC WY\n\n3 Schwarzf\u00e9hren, Ndm.\nAufn. Meisinger 1952\n\u201cFilm @x6,lr.24,Neg.Nr.1",
+        "Location": "WURPFLAC WY",
+        "Description": "3 Schwarzf\u00e9hren, Ndm.",
+        "Date": "1952",
+        "Photographer": "Meisinger",
+        "Film": "Film @x6"
+    },
+    {
+        "Filename": "0059_ImageFile_text_1_crop_otsu_bin_psm6.txt",
+        "Text": "sunters dorfeSchl oBeinfahrt\nAufn. Meisinger,Feber 1959\nRollfilm 4x6,Nr.f1Z42\u2014",
+        "Location": "sunters dorfeSchl oBeinfahrt",
+        "Description": null,
+        "Date": "Feber 1959",
+        "Photographer": "Meisinger",
         "Film": "Rollfilm 4x6"
     }
 ]

@@ -11,7 +11,7 @@ import numpy as np
 nlp = spacy.load("en_core_web_md")
 
 # load OCR texts
-with open("task-c-llama-3.json", "r", encoding="utf-8") as f:
+with open("task-c-chatgpt-4o.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # collect all entity texts
@@ -50,8 +50,8 @@ for x, y, label in zip(X_embedded[:, 0], X_embedded[:, 1], all_labels):
 handles, labels = plt.gca().get_legend_handles_labels()
 by_label = dict(zip(labels, handles))
 plt.legend(by_label.values(), by_label.keys())
-plt.title("t-SNE of Named Entity Word Vectors: llama-3")
-plt.savefig("tsne-entities-llama-3.png", dpi=300, bbox_inches='tight')
+plt.title("t-SNE of Named Entity Word Vectors: chatgpt-4o")
+plt.savefig("tsne-entities-chatgpt-4o.png", dpi=300, bbox_inches='tight')
 plt.close()
 
 # ----- compute and display word similarities -----
@@ -63,7 +63,7 @@ word_texts = [t.text for t in all_words]
 sim_matrix = cosine_similarity(vectors)
 
 # for each word, find top 3 most similar
-with open("similar-words-llama-3.txt", "w", encoding="utf-8") as f:
+with open("similar-words-chatgpt-4o.txt", "w", encoding="utf-8") as f:
     f.write("Word → Similar 1, Similar 2, Similar 3\n")
     f.write("=" * 50 + "\n")
     for i, word in enumerate(word_texts):
